@@ -1,0 +1,110 @@
+Theory: CPU & Memory Location of Variables in Python 🧠
+1️⃣ Variables Are References, Not Boxes
+
+In Python, a variable does not directly store a value.
+Instead, it stores a reference (address) to an object in memory.
+
+
+x = 10
+
+What happens internally:
+
+Python creates an integer object 10 in memory (RAM / heap).
+
+The variable x stores a reference to that object, not the value itself.
+
+So:
+
+x → memory address → object(10)
+
+
+---------------------------------------------------------------------------------------------------------------
+
+2️⃣ Objects Live in Heap Memory
+
+Python stores objects in the heap, a region of RAM used for dynamic allocation.
+
+Heap → stores objects (10, "Hello", lists, etc.)
+
+Stack → stores function calls & local references
+
+Variables mostly hold references on the stack, pointing to heap objects.
+
+----------------------------------------------------------------------------------------------------------------
+
+3️⃣ Role of CPU
+
+The CPU:
+
+✅ Executes Python bytecode
+✅ Reads references
+✅ Fetches objects from memory
+✅ Performs operations
+
+When you run:
+
+y = x + 5
+
+
+CPU steps:
+
+Fetch object referenced by x
+
+Fetch object 5
+
+Perform addition
+
+Create new object 15
+
+Store reference in y
+
+4️⃣ Why id() Shows Memory Address
+x = 10
+print(id(x))
+
+
+id() returns the identity of the object (usually its memory address in CPython).
+
+Important:
+
+✔ id(x) → address of object
+❌ Not address of variable name
+
+5️⃣ Object Reuse (Interning / Caching)
+
+Python optimizes memory by reusing objects.
+
+Example:
+
+a = 10
+b = 10
+
+
+Both may point to the same memory location because:
+
+Small integers (-5 to 256) are cached
+
+Saves memory & improves speed
+
+So:
+
+a → object(10)
+b → object(10)
+
+
+Same object ✔
+
+6️⃣ What Happens When Value Changes
+x = 10
+x = 20
+
+
+Python:
+
+Creates new object 20
+
+Updates reference of x
+
+Old object 10 may be garbage collected (if unused)
+
+Variables don’t change objects — they change reference

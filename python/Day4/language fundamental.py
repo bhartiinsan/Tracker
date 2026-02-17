@@ -72,12 +72,15 @@ print(x, name)
 
 
 #Operator
-'''  Operators perform operations on variables and values (arithmetic, logical, comparison, etc.).
+
+
+'''  Operators perform operations on variables and values, expressions (arithmetic, logical, comparison, etc.).
+these are also called operands
 
 
 EXAMPLE:
 Arithmetic operators: +, -, *, /, %, **, //
-Comparison operators: ==, !=, >, <, >=, <=
+Comparison/Relational operators: ==, !=, >, <, >=, <=
 Logical operators: and, or, not
 Assignment operators: =, +=, -=, *=, /=, %=, **=, //
 

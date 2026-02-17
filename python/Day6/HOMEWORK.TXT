@@ -1,0 +1,7 @@
+1. Find area of circle
+2. Find area of rectangle
+3. Find square of a number
+4. convert dollar value to INR
+5. calculate simple interest
+Note: You may consider your own values to solve above
+questions
