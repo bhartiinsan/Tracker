@@ -19,6 +19,8 @@ c= a+b
 print(a+b) # minus point you are ahead in writing code and you need to show the output again
 print(c)    # it is stored in value and resue
 
+
+
 # ARITHMETIC SUBTRACTION
 print(a-b)
 print(b-a)
@@ -63,8 +65,26 @@ a=10/5*2
 print(a)
 
 
-a= 2**3**2
+
+
+
+
+
+
+a= 2**3**2  # 2**(3**2)  # 2**9 = 512   # right to left associativity of exponentiation operator
+
 print(a)
+
+
+
+
+
+
+
+
+
+
+
 
 
 # QUES 1
