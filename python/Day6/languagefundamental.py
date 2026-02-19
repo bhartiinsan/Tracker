@@ -68,17 +68,9 @@ print(a)
 
 
 
-
-
-
 a= 2**3**2  # 2**(3**2)  # 2**9 = 512   # right to left associativity of exponentiation operator
 
 print(a)
-
-
-
-
-
 
 
 

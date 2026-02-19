@@ -1,16 +1,22 @@
-p=8
-c=8
-m=9
-avg = (p+c+m)/3
-print(avg)
 
 
-a=18.6
+
+print('/n')
+print("/n")
+
+print('\n')  # \n is for new line
+print(r'\n') # r is for raw string and it will print as it is
+print('\\n') # \\ is for single \ and then n will be printed as it is
+print(r'\\n') # r is for raw string and it will print as it is
+print(r'bharti') 
+
+
+a=18.6   #19
 b=round(a)
 print(b)
 
 
-a=18.4  
+a=18.4     #18
 b=round(a)
 print(b)
 
@@ -19,18 +25,56 @@ b=round(a)
 print(b)
 
 
+#FLOAT VALUE TO INTEGER VALUE ROUND SCENARIO
 
-a=18.5             # EVEN.5 IS ROUNDED TO PREVIOUS VALUE
-b=round(a)         # odd.5 is rounded
+
+a=17.5             # EVEN.5 IS ROUNDED TO PREVIOUS VALUE OR BASE INTEGER
+b=round(a)         # odd.5 is rounded TO NEXT VALUE INTEGER
+print(b)           # IT IS CALLED BANKER'S ROUNDING OR ROUND HALF TO EVEN
+
+a= 3.5
+b= round(a)
 print(b)
 
+a= 6.5
+b= round(a) 
+print(b)
 
-res=round(avg,2)  # 2 is for 2 decimal places
-print(res)
+a= 3.4
+b= round(a)
+print(b)
+
+print('\n')
+
+#----------------------------------
+p= 8
+c= 8
+m= 9
+avg = (p+c+m)/3
+print(avg)
+
+
+res=round(avg,2)  # 2 is for 2 decimal places and after value of equals to 5 or greater than 5 next value will be printed 
+print(res)                                #and if less than 5 then previous value will be printed
+
+
+print('\n')
+
 
 a=3.146789
 res=round(a,2)
 print(res)
+
+a=3.145789
+res=round(a,2)
+print(res)
+
+print('\n')
+
+a=3.143789
+res=round(a,2)
+print(res)
+
 
 #-----------------------------
 
@@ -50,6 +94,16 @@ print(round_price)
 
 actual_price = round(price - (price * less / 100))  
 print(actual_price)
+
+print('\n')
+
+# MY INVENTION
+
+short_price =(round( (price - discount)))
+print(short_price)
+
+print('\n')
+
 
 
 #question 2

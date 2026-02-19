@@ -59,7 +59,7 @@ print (age4)
 
 #-------------------------------------------------------------------------------------------------------------------
 
-adress ='D-1 Sourabh Vihar, New Delhi'
+adress ='New Delhi'
 marks= 75
 # marks= '75%'
 
@@ -79,6 +79,10 @@ print(id(y),y)
 x=20
 print(id(x),x)
 print(id(y),y)
+
+
+P=50
+print(id(P),P)
 
 
 

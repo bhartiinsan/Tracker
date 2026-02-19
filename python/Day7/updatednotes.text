@@ -1,0 +1,340 @@
+whatsapp on 9289097287
+name:
+student id:
+gmail id:
+time:10:30 AM Python
+trainer:Aditya Kumar
+
+
+Python
+---------
+	>It is a high level, general purpose, open source,interpreted programming language created by 
+	Guido van rossum and first released in 1991.
+
+	>It is widely used in AI & Automation due to 
+		easy to understand
+		less coding time
+		huge lib support
+
+	>Only downside of python is it's slow execution
+
+	>It was named Python after a comedy show Monty Python's Flying Circus
+
+Python Installation
+-------------------------
+	>We need to download python setup from python.org
+	>current version(10th feb 2026) is 3.14.3
+	>Following componenets are bundled with setup
+		1.Interpreter--->responsible to execute python code(handle transalation high to low level)
+		2.IDLE------------>editor to write & run python code
+		3.Docs------------>official reference of python
+		4.Library--------->set of readymade functions
+		etc.
+
+Numbers in Python
+-------------------------
+	1.Integer(int)
+		>number with out fraction
+		>+ve or -ve
+		>theortically it is unlimited but practically depends on RAM size
+	real life exp:
+	----------------
+		count of students/emps/etc.
+		runs/wickets in cricket
+		otp
+		account no
+		etc.
+	
+	2.Float(float)
+	-------------------
+		>number with fraction
+		>+ve or -ve
+		>accuracy level upto 14-16 decimal places
+		>becomes infinite(inf) after 308 digits
+	real life exp:
+	----------------
+		strike rate
+		interest rate
+		gold weight
+		gravity
+		temperature
+		avg marks
+		etc.
+
+Text in Python
+============
+	>it is called string(str)
+	>represented in 4 ways
+		A.	'...........................'
+		B.	".........................."
+		C.	'''.............
+			..............
+			'''
+		D.	""".......
+			............
+			"""
+
+	real life exp:
+		person name,place name,address,pan,txn id,empid,order id,story,etc,
+
+	Escape Sequences
+	------------------------
+	>are special chars having special meanings in output
+	>following are the commonly used escape chars
+		\n	---->	nextline
+		\t	--->	tab(0 to 8 spaces)
+		\u	---->	unicode
+		etc.
+	
+	How to ignore escape seqs
+	------------------------------------
+	1st way:use raw string
+
+		r'.......\t...\n.....'		#best suitable if need to ignore all escape seqs
+
+	2nd way:use escape char
+
+		'.........\\n......\\t.........'	#best suitable if need to ignore specific escape char
+
+
+	
+WAP to print following output using 4 print
+o/p
+rohit	virat
+surya	hardik
+
+
+print()
+---------	
+	>it is a library function that writes 0-N values of any type to standard output(shell/terminal/cmd/etc.)
+	syntax
+		print(value1,value2,value3,......sep=" ",end="\n")
+
+	sep
+	-----
+		>it is a keyword argument in print() that separate values in output
+		>default value is space and we may also change it's value
+		>it must be string and can not be repeated
+
+	end
+	-----
+		>it is a keyword argument in print() that controls end of print
+		>default value is \n and we may also change it's value
+		>it must be string and can not be repeated
+
+
+Language Fundamentals(tokens)
+===========================
+1.Keywords
+2.Comment
+3.Variable
+4.Operators
+5.Type Casting
+6.User Input
+7.Decision Making
+8.Loop
+9.String Handling
+10.Container datatypes
+
+
+Keywords
+-------------
+	>are reserve words having special meanings
+	>we can not modify their meanings & create our own keywords
+	>there are 35 keywords(3.14),32 are in lower and 3 in capitalize
+
+Diff b/w function and keyword
+----------------------------------------
+		function			keyword
+	-------------------------------------------------------------------------------------
+	we may create custom fun		we can not create custom keyword
+
+	we may modify definition		we can not modify definition
+
+
+
+Comment
+--------------
+	>it is non-executable part of a program and used to improve readability of source code.
+	>python supports only single line comment,represented by #
+		#....................
+
+	Note:officially there is no concept of multiline comment
+
+
+Variable
+-----------
+	>A variable is a name used to identify and store a value in a program so it can be reused.
+	>It may change it's value in the further stmts of a program
+	
+	syntax
+			varname=value
+
+	Note:Python is a dynamically typed language it means we need not to declare datatype of a variable and
+	it is done by language itself.
+
+	exp:
+		statically typed:
+			int age=25
+
+		C/C++/Java/etc.
+
+
+		dynamically typed:
+			age=25
+
+		ABC/Python/R/etc.
+
+	Rules:
+	--------
+	A.keywords are not allowed as identifier(varname)
+	B.symbols(except underscore) are not allowed
+	C.digits are allowed but not as first char
+	D.space,escape sequences(\t,\n,..) are not allowed
+	E.min length=1,max length=no limit
+ 
+
+Note:from memory point of view,a variable is a reference that points to (refers to) a value(object).
+
+
+
+
+id()
+----
+	>It is a library function that returns address of value refered by a variable
+		address=id(variable)
+
+
+
+type()
+--------
+	>It is a library function that returns datatype of a value refered by a variable
+		datatype=type(variable)
+
+
+
+
+Note:
+	>variables share address of same value to optimize memory usage
+	>int/float/str/bool values are immutable hence they are changed to a different memory block
+
+
+	
+
+Operators
+=========
+	>operators are special symbols & keywords used to perform different types of operations like arithmetic,
+	comparision,logical,searching,deleting etc. on operands.
+
+	>operand is the data in form of either value or variable or expression.
+
+	>based on no. of operands,there are 3 categories of operators
+		1.Unary	--->	works with 1 operand
+		2.Binary	--->	works with 2 operands
+		3.Ternary	--->	works with 3 operands
+
+
+
+
+
+Commonly used binary operators
+-------------------------------------------
+A.	Arithmetic operators
+B.	Assignment operators
+C.	Comparision(Relational) operators
+D.	Logical operators
+E.	Bitwise operators
+F.	Membership operators
+G.	Identity operators
+
+
+
+
+Commonly used unary operators
+--------------------------------------------
+A.	unary plus sign
+B.	unary minus sign
+C.	logical not
+
+
+
+Commonly used ternary operators
+--------------------------------------------
+A.	conditional operator
+
+
+Arithmetic operators
+---------------------------
+	+		Arithmetic Addition
+	-		Arithmetic Subtraction
+	*		Arithmetic  Product
+	**		Arithmetic Exponent
+	/		Arithmetic true division
+	//		Arithmetic floor division
+	%		Arithmetic modulus division
+
+	Precedence & Associativity
+	-------------------------------------
+	
+	Precedence		Associativity
+	()			left to right
+	**			right to left
+	/,//,%,*	left to right
+	+,-			left to right
+		
+round()
+---------
+	>it is a library function that can be used to round a float value in following 2 ways
+	A. float to int
+	-----------------
+			int_data=round(float_data)
+
+			if fraction part is
+				>.5	round to next int
+	
+			if fraction part is
+				<.5	round to same int
+
+			if fraction part is
+				=.5
+				if decimal part is even	round to same int
+				if decimal part is odd	round to next int
+
+
+	exp:
+		5.6	--->	6
+		5.4	--->	5
+		5.5	--->	6   (as decimal part is (odd) 5)
+		6.5	--->	6   (as decimal part is (even) 6)
+
+	B. float to float to limit decimal places
+	--------------------------------------------------
+			float_data=round(float_data,decimal_places)
+	exp:
+		round(3.145789,2)	---->	3.14
+		
+
+Assignment Operators
+------------------------------
+	>it is used to define or update a variable
+	Simple Assignment
+	-------------------------
+		var=value/var/expression
+
+	Multiple Assignment
+	----------------------------
+		var1,var2,var3...=value1,value2,value3,...
+
+	Chained Assignment
+	---------------------------
+		var1=var2=var3=.....=value
+
+	Compound Assignment
+	------------------------------
+		var+=value		means 	var=var+value
+		var-=value
+		var*=value
+		var**=value
+		var/=value
+		var//=value
+		var%=value
