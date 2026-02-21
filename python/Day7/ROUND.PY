@@ -133,4 +133,5 @@ amount_after_tax = income - (income * tax / 100)
 
 amount_after_cess = amount_after_tax - (amount_after_tax * cess / 100)
 
-print
+print(amount_after_cess)
+
