@@ -121,6 +121,9 @@ print(round(avg,2))
 #--------------------------------------------------
 
 
+#operators wale sarey dubara input wale bnane
+
+
 
 
 
