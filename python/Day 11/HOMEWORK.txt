@@ -1,0 +1,41 @@
+1. An Integer is Input through keyboard. Write a program to find
+whether it is odd or even number.
+
+2. If cost price and selling price of an item is input through keyboard.
+Write a program to check profit or loss.
+
+3. WAP to test a whether a number is divisible by 3 or 5 or both.
+
+4. WAP to find the greatest of three numbers entered through
+keyboard.
+
+5. The marks obtain by a student in 5 different subjects are input
+through keyboard. The student gets the division as per the following
+rules:
+Percentage above or equal to 60- first division
+Percentage between 50 and 59- second division
+Percentage between 40 and 49 – third division
+Percentage below 40- fails.
+
+
+
+6. Write a program that has following menu:
+Enter 1 to find the area of rectangle.
+Enter 2 to find the area of circle.
+Values for length and width of a rectangle and value of a radius of
+circle will be entered through keyboard.
+
+
+
+7. Write a program that has following menu:
+
+Enter 1 to find out whether the entered number is even or odd.
+Enter 2 to find out whether the entered number is positive or
+negative.
+
+
+
+8. WAP that implements the simple calculator that has following menu:
+Enter 1 to find the True division of 2 numbers.
+Enter 2 to find the square of a number.
+Enter 3 to find the cube of a number.
