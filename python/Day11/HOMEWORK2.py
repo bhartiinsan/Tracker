@@ -20,14 +20,16 @@ percentage = (total / 500) * 100
 if percentage >= 60:
     print("First Division ")
 
-elif percentage >= 50:
+elif percentage >= 50 and percentage<=59:
     print("Second Division ")
 
-elif percentage >= 40:
+elif percentage >= 40 and percentage<50:
     print("Third Division ")
 
 else:
     print(" You have failed ")
+
+
 
 
 
@@ -72,10 +74,12 @@ Output= int(input(" Press 1 to know whether the number is even or odd \n"
 " Press 2 to know whether the number is positive or negative"))
 if Num<=0:
     print("The number is negative")
+elif Num>0:
+     print(" The number is positive")
 elif Num%2!=0:
     print("The number is Odd")
 elif Num%2 ==0:
-    print("The number is Even and positive ")
+    print("The number is Even ")
 else:
     print(" Enter the valid number")
 

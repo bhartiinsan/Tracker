@@ -1,0 +1,75 @@
+1. WAP to tell whether a student is qualifying for admission or not.
+rules:
+
+Marks in Mathematics are greater than or equal to 60 and marks in
+physics are greater than or equal to 50 and marks in chemistry are
+greater than or equal to 40
+
+OR
+
+Total marks in mathematics, physics and chemistry are greater than
+or equal to 200.
+
+OR
+
+Total marks in mathematics and physics are greater than or equal to
+150.
+
+
+
+
+
+
+
+
+2. Electricity Bill (Subsidy Based)
+rules:
+ If units ≤ 200 → Bill = ₹0 (free)
+ If units &gt; 200:
+o First 200 units are charged at ₹2 per unit
+o Remaining units are charged at ₹4 per unit
+
+Task:
+Write a program using if-else that:
+ Takes electricity units as input
+ Calculates and prints the total bill amount
+
+
+
+
+
+3.Income Tax Calculation
+Tax slabs:
+ Income ≤ ₹12,00,000 → No tax
+ Income &gt; ₹12,00,000
+o Upto ₹4,00,000 → No tax
+o ₹4,00,001 to ₹8,00,000 → 5% tax
+o ₹8,00,001 to ₹12,00,000 → 10% tax
+o ₹12,00,001 to ₹15,00,000 → 15% tax
+o ₹15,00,001 to ₹18,00,000 → 20% tax
+o Above ₹18,00,000 → 30% tax
+
+Task:
+Write a program using if-else that:
+ Takes annual income as input
+ Calculates and prints the tax amount
+
+
+
+
+
+
+
+
+
+
+
+4. Write a program that has following menu:
+Enter code w for withdraw.
+Enter code d for deposit.
+Enter code c for checking balance.
+
+Note: 1 take initial amount as input from user.
+
+Note:2 You can withdraw an amount only if balance is greater
+than or equal to withdrawing amount
