@@ -16,6 +16,9 @@ OR
 Total marks in mathematics and physics are greater than or equal to
 150.
 '''
+
+
+
 m3 = int(input(" Give me the marks of chemistry= "))
 
 if m3>=40:
@@ -44,3 +47,22 @@ else:
 
     # what i did mistake is that i wrote m1 and m2 and m3 which means, so it is checking the true value of the input and printing the last value
     # example: M1=90, M2= 67, M3 45    :90 -> true, 67-> true and 45 -> true , SO IT WILL RESULT THE THIRD VALUE 45
+
+    '''
+    
+    
+    m1 = int(input("Give me the marks of Maths: "))
+    m2 = int(input("Give me the marks of Physics: "))
+    m3 = int(input("Give me the marks of Chemistry: "))
+
+   
+if (m1 >= 60 and m2 >= 50 and m3 >= 40) or (m1 + m2 + m3 >= 200) or (m1 + m2 >= 150):
+    print("CONGRATULATIONS, YOU ARE ELIGIBLE FOR ADMISSION")
+else:
+    print("SORRY, YOU ARE NOT ELIGIBLE")
+    
+    
+    
+    
+    
+    '''
