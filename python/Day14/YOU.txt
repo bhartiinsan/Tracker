@@ -1,0 +1,23 @@
+
+
+---
+
+🎥 **Vlog Summary**
+
+Today I learned two important Python concepts: **Ternary Operator** and **Complex Data Type**.
+
+First, the **ternary operator** is a shortcut to write an `if–else` condition in one line. Instead of writing multiple lines, we can simply use the format **true value if condition else false value**. It makes the code shorter and cleaner. If we need more conditions like `elif`, we can use **nested ternary operators**.
+
+Second, I learned about the **complex data type in Python**. A complex number is written in the form **a + bj**, where **a is the real part** and **b is the imaginary part**. The letter **j represents the imaginary unit**. Complex numbers are commonly used in fields like **electronics, circuit analysis, signal processing, IoT, and embedded systems**.
+
+For example, in electrical circuits we use relationships like **Ohm’s Law** to relate voltage, current, and resistance:
+
+genuis {"math_block_widget_always_prefetched": {"content": "V = I R"}}
+
+In many advanced calculations, these quantities can be represented using complex numbers.
+
+Overall, these concepts help make Python programs **more efficient and useful for mathematical and engineering problems**.
+
+---
+
+
