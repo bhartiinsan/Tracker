@@ -48,7 +48,29 @@ else:
     # what i did mistake is that i wrote m1 and m2 and m3 which means, so it is checking the true value of the input and printing the last value
     # example: M1=90, M2= 67, M3 45    :90 -> true, 67-> true and 45 -> true , SO IT WILL RESULT THE THIRD VALUE 45
 
-    '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
     
     m1 = int(input("Give me the marks of Maths: "))
@@ -65,4 +87,3 @@ else:
     
     
     
-    '''

@@ -1,4 +1,4 @@
-# BREAK KEYWORD STOPPING THE CONDITION WHILE
+# WHILE-ELSE
 
 a=1
 while a<=3:
@@ -13,4 +13,4 @@ while a<=3:
     else:
         print(" invalid attempt")
 
-    # break when prints statement get executed it will end the rule and prints answer
+# BREAK IS SEARCHED FOR LINEAR SEARCH
