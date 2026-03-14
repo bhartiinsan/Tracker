@@ -1,0 +1,6 @@
+1. WAP to print all even and odd numbers between 1 and 100;
+2. WAP to print all even and odd numbers between 100 and 1;
+3. WAP to print sum of numbers from 1 and 100;
+4. Calculate the cube of all numbers from 1 to a given number.
+5. WAP to print calculate the factorial of number entered through keyboard;
+6. WAP to check prime number entered through keyboard.
