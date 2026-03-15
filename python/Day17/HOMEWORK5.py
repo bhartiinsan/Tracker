@@ -8,14 +8,14 @@
 
 # WAP to calculate factorial of a number entered through keyboard
 
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-# fact = 1
+fact = 1
 
-# for i in range(1, num + 1):
-#     fact = fact * i
+for i in range(1, num + 1):
+    fact = fact * i
 
-# print("Factorial of", num, "is", fact)
+print("Factorial of", num, "is", fact)
 
 
 #-------------------------------------------------

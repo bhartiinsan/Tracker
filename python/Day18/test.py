@@ -21,9 +21,9 @@
 #         print("ab", end=" ")
 #     print("abc")
 
-for abc in range(0,3):
+for abc in range(0,5):
     for ab in range(0,2):
-        for a in range(0,1):
+        for a in range(0,abc):
             print(a, end=" ")
         print(ab, end=" ")
-    print(abc)
+    print()
