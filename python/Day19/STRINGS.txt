@@ -1,0 +1,65 @@
+🎥 **Python Learning Vlog – String Handling Basics**
+
+Today I explored one of the most important topics in Python: **String Handling**. Strings are everywhere in programming because they help us store and manipulate text such as names, messages, and sentences.
+
+First, I learned that in Python a **string is a sequence of immutable Unicode characters**. This means a string is made up of many small units called **characters**, and once a string is created its characters cannot be changed directly.
+
+A **character** is the smallest unit of a program. Characters can be alphabets, numbers, symbols, or even emojis. Multiple characters combine to form **words**, and words combine to form meaningful **program text**.
+
+Then I explored how computers represent characters internally using **encoding systems**.
+
+Originally computers used **ASCII (American Standard Code for Information Interchange)**, which supported only 128 characters. Later **Latin encoding** expanded this to 256 characters for European languages. But these systems were still limited.
+
+To solve this problem, **Unicode** was introduced in 1991. Unicode is a universal character system that supports characters from almost every language in the world. Python uses Unicode to represent characters, which is why we can print characters from many languages.
+
+For example, Python can display Unicode characters like this:
+
+```python
+print("\u0915")
+print("\u03B8")
+```
+
+These codes represent characters from different languages.
+
+Next, I practiced **string immutability**. When a string value changes, Python does not modify the existing string. Instead, it creates a new string in memory.
+
+I also learned about **string concatenation**, which means joining strings together:
+
+```python
+first = "virat"
+last = "kohli"
+name = first + " " + last
+print(name)
+```
+
+Here, Python combines the first and last name into a new string.
+
+Another interesting concept is **string replication**, where a string is repeated multiple times:
+
+```python
+s = "hello"
+print(s * 6)
+```
+
+This prints the word "hello" six times.
+
+I also discovered that **strings are iterable**, which means we can access each character one by one using a loop:
+
+```python
+s = "python"
+for i in s:
+    print(i)
+```
+
+Finally, I learned how to count characters in a string using the **len() function**:
+
+```python
+s = "python"
+print(len(s))
+```
+
+This tells us how many characters are present in the string.
+
+Overall, today’s learning helped me understand how Python stores text, how characters are represented, and how strings can be manipulated using operations like concatenation, replication, iteration, and length calculation.
+
+Learning strings feels like unlocking the language of programming itself. Looking forward to exploring more Python concepts in the next coding vlog! 🚀

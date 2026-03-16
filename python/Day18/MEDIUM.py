@@ -111,3 +111,30 @@
 #     if i==3:
 #         continue
 #     print(i)        #1,2,3,4,5
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+# NUMS= [3,1,4,1,5]
+# NUMS.remove(1)
+# NUMS= NUMS.sort()
+# print(NUMS)
+
+
+
+# word= "developer"
+# x= word[::-2]
+# print(x)
+
+
+nums=[1,2,3,4,5,6]
+for n in nums[:]:
+    if n%2 ==0:
+        nums.remove(n)
+print(nums)
+
+
+
+
+
+
