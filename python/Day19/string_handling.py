@@ -45,7 +45,9 @@
 
 # # replication
 # s2="hello"
-# s2=s*6
+# # s2=s*6
+# s=(s2+" ")*6 # if you need space
+# print(s)
 
 # print(s2)
 

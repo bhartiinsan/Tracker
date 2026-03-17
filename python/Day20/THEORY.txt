@@ -1,0 +1,194 @@
+
+1. STRING CREATION
+
+s1 = 'hello'
+s2 = "world"
+s3 = '''multi
+line'''
+s4 = """also
+multiline"""
+s5 = r"raw\nstring"       # Raw string (no escape processing)
+s6 = b"bytes string"      # Bytes
+s7 = f"value: {2 + 2}"   # f-string
+
+#---------------------------------------------------------------------------------------------------------------
+
+2. STRING SLICING
+
+s = "Python"
+s[0]      # 'P'
+s[-1]     # 'n'
+s[1:4]    # 'yth'
+s[::2]    # 'Pto'
+s[::-1]   # 'nohtyP'  (reverse)
+
+#----------------------------------------------------------------------------------------------------------------
+
+3. STRING immutability
+
+s = "hello"
+s[0] = "H"  # ❌ TypeError — strings are immutable
+s = "H" + s[1:]  # ✅ Create a new string instead
+
+
+#-----------------------------------------------------------------------------------------------------------------
+
+4.STRING OPERATORS
+
+"hi" + " there"   # Concatenation → 'hi there'
+"ha" * 3          # Repetition   → 'hahaha'
+"py" in "python"  # Membership   → True
+
+#------------------------------------------------------------------------------------------------------------------
+
+5. STRING METHOD
+
+Category   Methods 
+Case        upper(), lower(), capitalize(), title(), swapcase()
+Search      find(), rfind(), index(), rindex(), count()
+Check       startswith(), endswith(), isalpha(), isdigit(), isalnum(), isspace(), isupper(), islower()
+Trim        strip(), lstrip(), rstrip()
+Split/Join  split(), rsplit(), splitlines(), join()
+Replace     replace(), translate(), maketrans()
+Align       center(), ljust(), rjust(), zfill()
+Encode      encode(), decode()
+
+
+
+"  hello  ".strip()           # 'hello'
+"hello world".split()         # ['hello', 'world']
+"-".join(["a", "b", "c"])     # 'a-b-c'
+"hello".replace("l", "r")     # 'herro'
+"hello".find("l")             # 2
+"HELLO".lower()               # 'hello'
+"hello world".title()         # 'Hello World'
+"hello".center(11, "-")       # '---hello---'
+"42".zfill(5)                 # '00042'
+
+#--------------------------------------------------------------------------------------------------------------------
+
+6. STRINGS FORMATTING
+
+# % formatting (old style)
+"Hello, %s! You are %d." % ("Alice", 30)
+
+# .format() method
+"Hello, {}! You are {}.".format("Alice", 30)
+"Hello, {name}!".format(name="Alice")
+
+# f-strings (Python 3.6+) — preferred
+name, age = "Alice", 30
+f"Hello, {name}! You are {age}."
+f"{3.14159:.2f}"    # '3.14'
+f"{1000000:,}"      # '1,000,000'
+f"{'hi':>10}"       # '        hi'  (right-align)
+
+#--------------------------------------------------------------------------------------------------------------
+7.ESCAPE sequence
+
+Escape             Meaning
+\n                 Newline
+\t                 Tab
+\\                 Backslash
+\'                 Single quote
+\"                 Double quote
+\r                 Carriage return
+\0                 Null character
+\uXXXX             Unicode character
+
+#----------------------------------------------------------------------------------------------------------------
+
+8. RAW STRINGS
+
+path = r"C:\Users\name\file.txt"  # Backslashes not treated as escapes
+pattern = r"\d+\.\d+"            # Useful in regex
+
+#----------------------------------------------------------------------------------------------------------------
+
+9. STRING ENCODING AND UNICODE
+s = "hello"
+s.encode("utf-8")          # b'hello'
+b"hello".decode("utf-8")   # 'hello'
+
+ord("A")    # 65  (char → code point)
+chr(65)     # 'A' (code point → char)
+
+#-----------------------------------------------------------------------------------------------------------------
+10. Regular Expressions (re module)
+import re
+re.match(r"\d+", "123abc")         # Match at start
+re.search(r"\d+", "abc123")        # Match anywhere
+re.findall(r"\d+", "a1b2c3")       # ['1', '2', '3']
+re.sub(r"\d+", "#", "a1b2")        # 'a#b#'
+re.split(r"\s+", "hello   world")  # ['hello', 'world']
+
+
+#-------------------------------------------------------------------------------------------------------------------
+
+11. STRING iteration
+
+for char in "python":
+    print(char)
+
+list("abc")           # ['a', 'b', 'c']
+list(enumerate("ab")) # [(0,'a'), (1,'b')]
+
+
+#--------------------------------------------------------------------------------------------------------------------
+
+12. STRING COMPARISON
+
+
+"apple" == "apple"   # True
+"apple" < "banana"   # True (lexicographic)
+"a" == "A"           # False
+"a".lower() == "A".lower()  # True
+
+#---------------------------------------------------------------------------------------------------------------------
+
+13. Multiline & Long Strings
+
+# Triple quotes
+text = """
+Line 1
+Line 2
+"""
+
+# Line continuation
+long = ("This is a very "
+        "long string "
+        "split across lines")
+
+#------------------------------------------------------------------------------------------------------------------------
+
+14. string Module Constants
+
+import string
+string.ascii_letters   # 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+string.digits          # '0123456789'
+string.punctuation     # '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+string.whitespace      # ' \t\n\r\x0b\x0c'
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+
+15. Common Patterns & Tips
+
+# Reverse a string
+"hello"[::-1]             # 'olleh'
+
+# Check palindrome
+s = "racecar"
+s == s[::-1]              # True
+
+# Count vowels
+sum(1 for c in "hello" if c in "aeiou")  # 2
+
+# Remove duplicates (preserve order)
+"".join(dict.fromkeys("banana"))  # 'ban'
+
+# String to list of words
+"one two three".split()   # ['one', 'two', 'three']
+
+# Most frequent character
+max("hello", key="hello".count)  # 'l'

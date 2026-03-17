@@ -9,11 +9,5 @@ if i<len(String):
 else:
     print(" out of index")
 
-# print(" which index you want to see the string {string[]}")
-# if String !=len(String):
-#     print(" print give the  valid number is lens")
-# else:
-#     print( you index is String{0:i})
 
-#TRY TO DO NEGATIVE INDEX
 
