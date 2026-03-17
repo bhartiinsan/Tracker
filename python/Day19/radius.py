@@ -17,8 +17,13 @@
 
 #----------------------------------------------------------------------------
 
-num = int(input("Enter a number from 1 to 100: "))
+# num = int(input("Enter a number from 1 to 100 to print the number sequence from 1 to 100 : "))
 
-while num <= 100:
-    print(f"value = {num:03}")
-    num += 1
+# while num <= 100:
+#     print(f"value = {num:03}")
+#     num += 1
+
+#------------------------------------------------------------------------------
+
+for i in range (1,100):
+    print(f"value = {i:03}")
