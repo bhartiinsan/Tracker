@@ -1,0 +1,16 @@
+1. Write a Python program to calculate the length of a string without using len(). 
+
+2. Write a Python program to change a given string to a new string where the first and last
+chars have been exchanged. 
+
+3. Write a Python program that takes input from the user and displays that output in upper
+and lower cases. 
+4. Write a Python program to convert a given string to all uppercase if it contains at least 2
+uppercase characters in the first 4 characters. 
+5. Write a Python program to reverse a string. 
+6. Write a Python program to print the index of each character in a string.
+7. Write a Python program to check if a string contains all vowels of the alphabet. 
+8. Write a Python program to lowercase first n characters in a string. 
+9.Write a Python program to remove spaces from a given string. 
+10.WAP that reads a string from keyboard and determine whether the string is palindrome
+or not.
