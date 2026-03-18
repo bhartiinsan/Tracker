@@ -31,3 +31,16 @@
 
 
 #==========================================================
+
+# def foo(x):
+#     return x**2
+# print(foo(foo(2))) #16
+
+
+#===========================================================
+
+packages= ["box1", "box2", "box3"]
+next_delivery= packages.pop(0)
+packages.append("box4")
+
+print(next_delivery)

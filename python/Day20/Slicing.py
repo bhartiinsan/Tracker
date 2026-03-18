@@ -15,6 +15,7 @@ s="Python"
 
 
 # print(s[5:-6:-2]) #nhy
+
 print(s[1:4])
 print(s[-5:4:1])
 print(s[-5:-2:1])
