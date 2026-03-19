@@ -27,6 +27,8 @@ print("\"\"")
 print(10,20,30,40)
 print('hello','world','python',sep= "****", end= " bye")
 
+print('*                         *', sep="****")
+
 
 
 

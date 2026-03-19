@@ -1,5 +1,6 @@
 print("it\'s my choice") # double comma contains string
 print("it's my choice")
+print(" bharti\'s")
 print("d1 New delhi") # printing addresss of my home
 
 print(''' DUCAT

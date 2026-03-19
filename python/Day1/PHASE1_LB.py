@@ -86,34 +86,34 @@
 # third we check 2 number that they are similar, else print the valid number
 
 
-# num1=int(input(" Enter the number 1:  "))
-# num2= int(input("Enter the number 2:  "))
-# num3= int(input("Enter the number 3:  "))
+num1=int(input(" Enter the number 1:  "))
+num2= int(input("Enter the number 2:  "))
+num3= int(input("Enter the number 3:  "))
 
 
-# if num1==num2==num3:
-#     print(" NUMBER1 and NUMBER2 and NUMBER3 are equal")
-# elif num1 and num2 and num3 <0:
-#     print("Negative Number ")
-# elif num1==num2:
-#     print(" Number 1 and Number 2 are equal ")
-# elif num2==num3:
-#     print(" Number2 and Number3 are equal ")
-# elif num1==num3:
-#     print("Number1 and Number2 are equal ")
-# elif num1>num2 and num3:
-#     print(" NUMBER1 IS GREATER ")
-# elif num2>num1 and num3:
-#     print("Number2 IS GREATER ")
-# elif num3>num2 and num1:
-#     print("Number3 IS GREATER ")
-# else: print(" ENTER A VALID NUMBER")
+if num1==num2==num3:
+    print(" NUMBER1 and NUMBER2 and NUMBER3 are equal")
+elif num1 and num2 and num3 <0:
+    print("Negative Number ")
+elif num1==num2:
+    print(" Number 1 and Number 2 are equal ")
+elif num2==num3:
+    print(" Number2 and Number3 are equal ")
+elif num1==num3:
+    print("Number1 and Number2 are equal ")
+elif num1>num2 and num3:
+    print(" NUMBER1 IS GREATER ")
+elif num2>num1 and num3:
+    print("Number2 IS GREATER ")
+elif num3>num2 and num1:
+    print("Number3 IS GREATER ")
+else: print(" ENTER A VALID NUMBER")
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
 # 8.	Take a temperature value and print “Cold”, “Warm”, or “Hot” using range conditions.
 
-#LOGIC =
+# LOGIC =
 # Cold: Less than 15°C 
 # Warm: Between 15°C and 30°C (inclusive) 
 # Hot: Greater than 30°C 
@@ -140,55 +140,43 @@
 
 # 9.	Take a character and check if it’s a vowel or consonant.
 
-# NUM= (input(" Enter the string : "))
-# i= len(NUM)
-# if NUM.split ==("A,I,E,O,U").lower():
-#     print(" The number is a vowel")
-# else: print(" The number is constant")
 
+# STRING = input("Enter the string: ").lower()
+# CHECKLIST = 'aeiou'
+# COUNT = 0
 
-# # Step 1: Take input
-# char = input("Enter a single character: ")
+# for char in STRING:
+#     if char in CHECKLIST:
+#         COUNT += 1
 
-# # Step 2: Validate — must be exactly one character
-# if len(char) != 1:
-#     print("Please enter only a single character.")
-
-# # Step 3: Check if it's a letter at all
-# elif not char.isalpha():
-#     print(f"'{char}' is not a letter — it's a digit or special character.")
-
-# # Step 4: Core logic — check vowel or consonant
+# # Logical Check
+# if COUNT > 0:
+#     print(f"I found {COUNT} vowel(s) in the string!")
 # else:
-#     if char.lower() in ['a', 'e', 'i', 'o', 'u']:
-#         print(f"'{char}' is a VOWEL.")
-#     else:
-#         print(f"'{char}' is a CONSONANT.")
+#     print("This string is a CONSONANT-only string (No vowels found).")
 
 
 
 
 # 10.	Take a character and check whether it’s uppercase, lowercase, a digit, or a special character
 
-# Step 1: Take input
-char = input("Enter a single character: ")
 
-# Step 2: Validate length
-if len(char) != 1:
-    print("Please enter only a single character.")
+# char = input("Enter a single character: ")
 
-# Step 3: Check what type it is
-elif char.isdigit():
-    print(f"'{char}' is a DIGIT.")
+# if len(char) != 1:
+#     print("Please enter only a single character.")
+    
+# elif char.isdigit():
+#     print(f"'{char}' is a DIGIT.")
 
-elif char.isupper():
-    print(f"'{char}' is an UPPERCASE letter.")
+# elif char.isupper():
+#     print(f"'{char}' is an UPPERCASE letter.")
 
-elif char.islower():
-    print(f"'{char}' is a LOWERCASE letter.")
+# elif char.islower():
+#     print(f"'{char}' is a LOWERCASE letter.")
 
-else:
-    print(f"'{char}' is a SPECIAL CHARACTER.")
+# else:
+#     print(f"'{char}' is a SPECIAL CHARACTER.")
 
 
 
