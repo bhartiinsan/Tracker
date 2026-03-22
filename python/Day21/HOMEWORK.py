@@ -1,13 +1,36 @@
 # 1. Write a Python program to calculate the length of a string without using len(). 
 
-# s=input(" Enter the string")
+s=input(" Enter the string")
 
-# count= 0
+count= 0
 
-# for char in s:
-#     count+=1
+for char in s:
+    count+=1
 
-# print(f"LENGTH OF A STRING is {count}")
+print(f"LENGTH OF A STRING is {count}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #----------------------------------------------------------------------------------------
 
@@ -15,13 +38,44 @@
 # chars have been exchanged. 
 
 
-# s = input("Enter the string: ")
+s = input("Enter the string: ")
 
-# result = s[-1] + s[1:-1] + s[0]
+result = s[-1] + s[1:-1] + s[0]
 
-# print("Original :", s)
-# print("Swapped  :", result)
+print("Original :", s)
+print("Swapped  :", result)
 # #==================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # s = input("Enter the string: ")
 
@@ -40,6 +94,22 @@
 #     print(f"Original string : {s}")
 #     print(f"After swap      : {result}")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #---------------------------------------------------------------------------------------------------------
 
 
@@ -48,11 +118,33 @@
 # 3. Write a Python program that takes input from the user and displays that output in upper
 # and lower cases. 
 
-# s = input("Enter the string: ")
-# upper= s.upper()
-# lower= s.lower()
+s = input("Enter the string: ")
+upper= s.upper()
+lower= s.lower()
 
-# print(f"THIS IS THE UPPER STRING  :{upper}   and THIS IS THE LOWER STRING:    {lower}")
+print(f"THIS IS THE UPPER STRING  :{upper}   and THIS IS THE LOWER STRING:    {lower}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -61,18 +153,31 @@
 # uppercase characters in the first 4 characters. 
 
 
-# string= input(" Enter the string ")
-# count=0
-# for char in string[:4] :
-#     if char.isupper():
-#         count+=1
+string= input(" Enter the string ")
+count=0
+for char in string[:4] :
+    if char.isupper():
+        count+=1
 
-# if count >=2:
-#     print(f" It is qualified for the process {string.upper()}")
-# else:
-#     print(f" you string is  {string}")
+if count >=2:
+    print(f" It is qualified for the process {string.upper()}")
+else:
+    print(f" you string is  {string}")
 
 #-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # WORKING:
@@ -107,35 +212,61 @@
 
 
 # 5. Write a Python program to reverse a string. 
-# s = input("Enter the string: ")
-# reverse=s[::-1]
-# print(reverse)
+s = input("Enter the string: ")
+reverse=s[::-1]
+print(reverse)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #----------------------------------------------------------------------------
 
 
 
 # 6. Write a Python program to print the index of each character in a string.
+ # WE USE TO CHECK THE REPITITION OF SAME CHAR IN A WORD FOR EXAMPLE APPLE
+ # WE IT IS DOING SEPARATION INDEX THAN IT IS FINE OTHERWISE NOT
+# RECOMMENDED DON'T USE INDEX FUNCTION
 
 
+s = input("Enter the string: ")
 
-# s = input("Enter the string: ")
-
-# for i in range(len(s)):
-#     print(f"Character '{s[i]}' is at index {i}")
+for i in range(len(s)):
+    print(f"Character '{s[i]}' is at index {i}")
 
 
 #------------------------------------------------------------------------------
 
-# s = input("Enter the string: ")
+s = input("Enter the string: ")
 
-# count = 0
-# for char in s:                                  
-#     print(f"Character '{char}' is at index {count}")
-#     count += 1                                   
+count = 0
+for char in s:                                  
+    print(f"Character '{char}' is at index {count}")
+    count += 1                                   
 
 
 # #--------------------------------------------------------------------------------
+
 
 
 # THIS CONCEPT WE WILL LEARN IN FURTHER CLASSES
@@ -147,7 +278,45 @@
 #-------------------------------------------------------------------------------------
 
 
+
+
 # 7. Write a Python program to check if a string contains all vowels of the alphabet. 
+# WE ARE CHECKING THAT STRING CONTAINS ALL VOWELS
+
+s= " aam emli inu oak you"
+i=0
+for j in s:
+    print(j,i)
+    i+=1
+
+v="aeiou"
+
+for i in v:
+    if i in s.lower():
+        continue
+    else:
+        print("str does not contain all vowels")
+        break
+else:
+    print("str contains all vowels")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #CAN'T DO THE LOGIC OF IF WE FIND ANY OF THEM PRINT ----AND NONE THAN PRINT ITS A CONSTANT
 
 # STRING= input(" Enter the string ").lower()
@@ -181,37 +350,94 @@
 
 #----------------------------------------------------------------------------------------
 
+
+
+
+
+
 # 8. Write a Python program to lowercase first n characters in a string. 
 
 
-# STRING = input(" Enter the string ")
-# n= int(input(" HOW MANY CHARACTERS YOU WANT TO LOWERCASE: "))
+STRING = input(" Enter the string ")
+n= int(input(" HOW MANY CHARACTERS YOU WANT TO LOWERCASE: "))
 
 
-# result = STRING[:n].lower() + STRING[n:]
+result = STRING[:n].lower() + STRING[n:]
 
-# print(f" LOWERCASING THE STRING RESULT , {result}")
+print(f" LOWERCASING THE STRING RESULT , {result}")
 
 
 
 #==========================================================================================
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # # 9.Write a Python program to remove spaces from a given string. 
-# STRING = input(" Enter the string ")
-# result= STRING.replace(" ", '')
-# print(result)
+STRING = input(" Enter the string ")
+result= STRING.replace(" ", '')
+print(result)
 
 # ================================================================================================
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 10.WAP that reads a string from keyboard and determine whether the string is palindrome
-# or not.
+# # or not.
 
 STRING = input(" Enter the string ")
 key=STRING[::-1]
 if STRING==key:
     print( f"  {STRING}  IS A PALINDROME ")
 else: print(f" {STRING}  IS NOT PALINDROME")
+
 
