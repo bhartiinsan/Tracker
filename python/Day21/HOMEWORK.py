@@ -164,6 +164,8 @@ if count >=2:
 else:
     print(f" you string is  {string}")
 
+
+
 #-------------------------------------------------------------------------------------------
 
 
@@ -227,18 +229,6 @@ print(reverse)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #----------------------------------------------------------------------------
 
 
@@ -278,9 +268,8 @@ for char in s:
 #-------------------------------------------------------------------------------------
 
 
-
-
 # 7. Write a Python program to check if a string contains all vowels of the alphabet. 
+
 # WE ARE CHECKING THAT STRING CONTAINS ALL VOWELS
 
 s= " aam emli inu oak you"
@@ -305,18 +294,6 @@ else:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #CAN'T DO THE LOGIC OF IF WE FIND ANY OF THEM PRINT ----AND NONE THAN PRINT ITS A CONSTANT
 
 # STRING= input(" Enter the string ").lower()
@@ -330,9 +307,11 @@ else:
 # if COUNT ==5:
 #     print( f" THIS IS A VOWELS CHECKLIST {COUNT}, ALL FOUND IN STRING  : {STRING}")
 # else:
-#     print(f" This is the string which have {COUNT}VOWELS in {STRING}")
+#     print(f" This is the string which have {COUNT}VOWELS in {STRING}")     
 
-#--------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------
+
+
 
 # STRING = input("Enter the string: ").lower()
 # CHECKLIST = 'aeiou'
@@ -348,14 +327,14 @@ else:
 # else:
 #     print("This string is a CONSONANT-only string (No vowels found).")
 
-#----------------------------------------------------------------------------------------
 
 
 
-
-
+#------------------------------------------------------------------------------------------
 
 # 8. Write a Python program to lowercase first n characters in a string. 
+
+
 
 
 STRING = input(" Enter the string ")
@@ -368,7 +347,7 @@ print(f" LOWERCASING THE STRING RESULT , {result}")
 
 
 
-#==========================================================================================
+#================================================================================================
 
 
 
@@ -376,24 +355,7 @@ print(f" LOWERCASING THE STRING RESULT , {result}")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#================================================================================================
 
 
 # # 9.Write a Python program to remove spaces from a given string. 
@@ -401,34 +363,11 @@ STRING = input(" Enter the string ")
 result= STRING.replace(" ", '')
 print(result)
 
+
+
+
+
 # ================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # 10.WAP that reads a string from keyboard and determine whether the string is palindrome
