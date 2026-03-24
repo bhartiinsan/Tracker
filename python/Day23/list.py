@@ -4,6 +4,8 @@ LI= [12000,10000,15000,20000,11000,12000]
 desc_LI= sorted(LI,reverse=True)
 print(desc_LI)
 
+
+
 #=========================================================
 # it is heterogeneous
 # li=[20,10,'hi']
