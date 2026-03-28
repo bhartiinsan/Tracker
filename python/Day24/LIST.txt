@@ -1,0 +1,99 @@
+QUESTION K SATH ANSWER BHI TOH DO11:36 PMPractice Questions + Answers
+🟢 BEGINNER
+Q1. append + extend step by step
+pythonli = [10, 20, 30]
+li.append(40)
+print(li)           # [10, 20, 30, 40]
+
+li.extend([50,60,70])
+print(li)           # [10, 20, 30, 40, 50, 60, 70]
+
+Q2. Insert 99 at index 2
+pythonli = [1, 2, 3, 4, 5]
+print("Before:", li)    # Before: [1, 2, 3, 4, 5]
+
+li.insert(2, 99)
+print("After:", li)     # After:  [1, 2, 99, 3, 4, 5]
+
+Q3. Replace last element using negative index
+pythonli = [10, 20, 30, 40, 50]
+li[-1] = 999
+print(li)   # [10, 20, 30, 40, 999]
+
+Q4. Replace first 3 elements using slice
+pythonli = [1, 2, 3, 4, 5]
+li[:3] = [10, 20, 30]
+print(li)   # [10, 20, 30, 4, 5]
+
+Q5. append vs extend difference
+pythonli1 = [1, 2, 3]
+li2 = [1, 2, 3]
+
+li1.append([4, 5])    # adds LIST as ONE element
+li2.extend([4, 5])    # adds each element SEPARATELY
+
+print(li1)   # [1, 2, 3, [4, 5]]   ← nested list
+print(li2)   # [1, 2, 3, 4, 5]     ← flat list
+
+🟡 INTERMEDIATE
+Q6. Replace elements at even indexes with 0
+pythonli = [5, 10, 15, 20, 25]
+#     0   1   2   3   4   ← indexes
+
+for i in range(0, len(li), 2):   # 0, 2, 4 → even indexes
+    li[i] = 0
+
+print(li)   # [0, 10, 0, 20, 0]
+
+Q7. Add value at beginning WITHOUT insert()
+pythonli = [10, 20, 30]
+li[:0] = [5]        # slice assignment at index 0
+print(li)   # [5, 10, 20, 30]
+
+# OR using + operator
+li = [10, 20, 30]
+li = [5] + li
+print(li)   # [5, 10, 20, 30]
+
+Q8. Mutable trap — same object problem + fix
+python# PROBLEM
+li1 = [1, 2, 3]
+li2 = li1           # both point to SAME object
+li2.append(99)
+
+print(li1)   # [1, 2, 3, 99]  ← li1 ALSO changed! BUG
+print(li2)   # [1, 2, 3, 99]
+
+# FIX using .copy()
+li1 = [1, 2, 3]
+li2 = li1.copy()    # NEW independent copy
+li2.append(99)
+
+print(li1)   # [1, 2, 3]       ← safe, unchanged
+print(li2)   # [1, 2, 3, 99]   ← only li2 changed
+
+Q9. Give ₹5000 bonus in-place
+pythonsalaries = [10000, 20000, 30000]
+
+for i in range(len(salaries)):
+    salaries[i] = salaries[i] + 5000
+
+print(salaries)   # [15000, 25000, 35000]
+
+# OR using list comprehension
+salaries = [10000, 20000, 30000]
+salaries[:] = [s + 5000 for s in salaries]  # [:] modifies IN-PLACE
+print(salaries)   # [15000, 25000, 35000]
+
+Q10. Merge two lists sorted
+pythona = [1, 3, 5]
+b = [2, 4, 6]
+
+a.extend(b)     # merge b into a
+a.sort()        # sort in-place
+
+print(a)   # [1, 2, 3, 4, 5, 6]
+
+# OR one liner
+result = sorted(a + b)
+print(result)   # [1, 2, 3, 4, 5, 6]
