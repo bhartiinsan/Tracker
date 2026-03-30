@@ -16,6 +16,7 @@ print("Largest:", largest)
 
 
 # 3. Count strings with length >= 2 and first == last character
+
 li = ['abc', 'xyz', 'aba', '1221', 'a']
 count = 0
 for i in li:
@@ -25,6 +26,7 @@ print("Count:", count)
 
 
 # 4. Get unique values from a list
+
 li = [10, 12, 5, 7, 20, 5, 10, 12]
 li2 = []
 for i in li:
@@ -93,17 +95,3 @@ for i in li:
         largest = i
 avg = (smallest + largest) / 2
 print("Average of min & max:", avg)
-
-
-# **Output:**
-# ```
-# Sum: 59
-# Largest: 20
-# Count: 2
-# Unique: [10, 12, 5, 7, 20]
-# Empty list
-# After removing: ['Green', 'White', 'Black']
-# Odd numbers: [1, 3, 5, 7, 9]
-# String: Python
-# Second Largest: 15
-# Average of min & max: 10.0
