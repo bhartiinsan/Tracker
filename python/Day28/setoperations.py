@@ -1,0 +1,6 @@
+#SET OPERATIONS
+
+S1= {10,20,30}
+S3={30,40,50}
+
+S3=S1.intersection(S3)
