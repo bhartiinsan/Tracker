@@ -1,0 +1,18 @@
+Python List Comprehension Practice Questions
+1. Create a list of squares of numbers from 1 to 10 using list comprehension.
+2. From the list nums = [3, 7, 10, 15, 22, 8, 13], create a new list containing only even
+numbers using list comprehension.
+3. Convert all words in the list words = [&#39;python&#39;, &#39;data&#39;, &#39;science&#39;, &#39;ai&#39;] to uppercase using list
+comprehension.
+4. Create a list containing the length of each word in words = [&#39;apple&#39;, &#39;banana&#39;, &#39;mango&#39;,
+&#39;kiwi&#39;] using list comprehension.
+5. From the list nums = [5, 12, 7, 18, 3, 25, 10], create a new list containing numbers greater
+than 10 using list comprehension.
+6. Create a list containing the first letter of each word in words = [&#39;machine&#39;, &#39;learning&#39;,
+&#39;deep&#39;, &#39;python&#39;] using list comprehension.
+7. From the list nums = [1,2,3,4,5,6], create a new list that stores &#39;Even&#39; or &#39;Odd&#39; for each
+number using list comprehension.
+8. From the string &#39;datascience&#39;, create a list of characters excluding vowels using list
+comprehension.
+9. Create a list of multiples of 3 from 1 to 30 using list comprehension.
+10. Create all possible pairs using list1 = [1,2,3] and list2 = [&#39;a&#39;,&#39;b&#39;] using list comprehension.
