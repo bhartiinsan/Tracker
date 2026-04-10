@@ -46,44 +46,29 @@
 
 # Logic of circle area
 
-def circle (pie,r):
-    print(pie*r*r)
+# def circle (pie,r):
+#     print(pie*r*r)
 
-circle(22.7,3)
+# circle(22.7,3)
 
 #=====================================================
 
 
-def circle (r):
-    a= 3.14*r**2
-    print(a)
+# def circle (r):
+#     a= 3.14*r**2
+#     print(a)
 
-circle(33)
+# circle(33)
 
 #======================================================
 
-pi=3.141472
+# pi=3.141472
 
-def circle (r):
-    a= pi*r**2
-    print(a)
+# def circle (r):
+#     a= pi*r**2
+#     print(a)
 
-circle(33)
+# circle(33)
 
 
 #=======================================================
-
-#IMPLEMENT DIVISION LOGIC BASZED ON MARKS AS PARAMETER
-    #DIVISION(56)-->2ND
-    #DIVISION(12)-->FAIL
-
-
-#IMPLEMENT BILL DETAILS LOGIC FOR BILL AND GST PARAMETERS
-    #BILL_DETAIL(245,5)
-    #---BILL
-    #---GST
-    #---FINAL BILL
-
-#========================================================
-
-
