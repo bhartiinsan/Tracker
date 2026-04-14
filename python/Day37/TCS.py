@@ -474,6 +474,7 @@ avg = sum_odd / count if count != 0 else 0
 print(sum_odd, count, format(avg, ".2f"))
 
 
+
 #==============================================================================================================================
 
 
@@ -494,6 +495,8 @@ print(sum_odd, count, format(avg, ".2f"))
 # 7        Cost: 15000
 # 0        Invalid Input
 
+
+
 # Step 1: Input lena
 months = int(input())
 
@@ -510,7 +513,7 @@ else:
     print("Cost: 15000")
 
 
-    #==========================================
+#==========================================
 
 #     Question 1: Laptop Charge Count
 # Problem Statement
@@ -556,6 +559,7 @@ for x in arr:
 
 print(count)
 
+
 #=====================================================================================
 # ??????????/
 
@@ -587,6 +591,8 @@ print(count)
 # Example:
 # Input:   100
 # Output:  36.5625 63.4375
+
+
 
 # Step 1: Input lena
 happy = float(input())
