@@ -1,0 +1,9 @@
+# LIBRARY----> COLLECTION  OF PRE-DEFINED CODE WITHER IN THE FORM OF PACKAGE OR IN THE FORM OF MODULE DIRECTLY
+# random, numpy,pandas, requests
+# FRAMEWORK ---> LIBRARY + PREDEFINED ARCITECTURE+ DOMAIN
+# django            (MVT)    - WEB(DOMAIN)
+#TENSERFLOW
+#PYTORCH            (DNN)   -AI
+
+
+#==============================================================

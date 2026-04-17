@@ -21,20 +21,20 @@
 
 # A single integer N representing the initial number of Happy people.
 
-# # Step 1: Input lena
-# happy = float(input(" enter initial happy count: "))
-# sad = 0.0
+# Step 1: Input lena
+happy = float(input(" enter initial happy count: "))
+sad = 0.0
 
-# # Step 2: 4 iterations chalao
-# for _ in range(3):
-#     new_happy = 0.3 * happy + 0.5 * sad
-#     new_sad   = 0.7 * happy + 0.5 * sad
+# Step 2: 4 iterations chalao
+for _ in range(3):
+    new_happy = 0.3 * happy + 0.5 * sad
+    new_sad   = 0.7 * happy + 0.5 * sad
 
-#     happy = new_happy
-#     sad = new_sad
+    happy = new_happy
+    sad = new_sad
 
-# # Step 3: Print karo
-# print(happy, sad)
+# Step 3: Print karo
+print(happy, sad)
 
 
 # Example:
@@ -85,16 +85,17 @@
 
 # # Step 4: Result print karna
 # print(count)
+# +++++++++++=========================================
 
 
-# INPUT = int(input(" enter the values, maximum charge "))
+INPUT = int(input(" enter the values, maximum charge "))
 
-# Charges= list(map( int, input(" Enter the value of list").split()))
+Charges= list(map( int, input(" Enter the value of list").split()))
 
-# count=0
-# for c in Charges:
-#    if c >=INPUT:
-#         count+=1
+count=0
+for c in Charges:
+   if c >=INPUT:
+        count+=1
 
 # print(count)
 
@@ -125,18 +126,18 @@
 
 
 
-# month=int(input(" Enter the month in numeric"))
+month=int(input(" Enter the month in numeric"))
 
-# if month<=0:
-#     print( " Invalid number")
-# elif month ==1:
-#     print(" 2000 ")
-# elif 2<= month <=3:
-#     print(" 5000 ")
-# elif 4<= month <=5:
-#     print(" 9000 ")
-# else:
-#     print(" 15000 ")
+if month<=0:
+    print( " Invalid number")
+elif month ==1:
+    print(" 2000 ")
+elif 2<= month <=3:
+    print(" 5000 ")
+elif 4<= month <=5:
+    print(" 9000 ")
+else:
+    print(" 15000 ")
 
 
 #==============================================================================================
@@ -161,14 +162,14 @@
 # 6        20
 
 
-# TIME= int(input("Enter the integer"))
+TIME= int(input("Enter the integer"))
 
-# if TIME <=2:
-#     print(" 100")
-# elif 3<= TIME <=4:
-#     print(" 50 ")
-# else:
-#     print("20 ")
+if TIME <=2:
+    print(" 100")
+elif 3<= TIME <=4:
+    print(" 50 ")
+else:
+    print("20 ")
 
 #===========================================================================================================
 
@@ -220,19 +221,19 @@
 
 
 
-# # Input list directly
-# nums = list(map(int, input("Enter numbers: ").split()))
+# Input list directly
+nums = list(map(int, input("Enter numbers: ").split()))
 
-# # Filter odd numbers
-# odds = [x for x in nums if x % 2 != 0]
+# Filter odd numbers
+odds = [x for x in nums if x % 2 != 0]
 
-# # Calculate
-# s = sum(odds)
-# c = len(odds)
-# avg = s / c if c > 0 else 0
+# Calculate
+s = sum(odds)
+c = len(odds)
+avg = s / c if c > 0 else 0
 
-# # Output
-# print(f"{s} {c} {avg:.2f}")
+# Output
+print(f"{s} {c} {avg:.2f}")
 
 
 #=======================================================================
@@ -339,18 +340,18 @@ print(f"{final_amount:.2f}")
 
 # Python Code (Easiest)
 
-# # Step 1: Input lena
-# distance = int(input())
-# time = int(input())
+# Step 1: Input lena
+distance = int(input())
+time = int(input())
 
-# # Step 2: Validation
-# if 1 <= time <= 60:
-#     # Calculation: speed = distance / (time / 60) 
-#     # Jo math mein ban jata hai: (distance * 60) / time
-#     speed = (distance * 60) // time
-#     print(speed)
-# else:
-#     print("Error")
+# Step 2: Validation
+if 1 <= time <= 60:
+    # Calculation: speed = distance / (time / 60) 
+    # Jo math mein ban jata hai: (distance * 60) / time
+    speed = (distance * 60) // time
+    print(speed)
+else:
+    print("Error")
 
 #================================================================================================
 
