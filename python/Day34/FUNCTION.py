@@ -61,14 +61,14 @@
 # add(10,20,30)
 
 # FUNCTION OVERLOADING
-# AS TUPLE
-a=77
-def add(*a):
-    # print(type(add), sum(a)) # error
+# # AS TUPLE
+# a=77
+# def add(*a):
+#     # print(type(add), sum(a)) # error
 
-add(10,20)
-add(10,20,78,90)
-add(type(add))
+# add(10,20)
+# add(10,20,78,90)
+# add(type(add))
 
 
 
@@ -80,18 +80,4 @@ add(type(add))
 
 #===================================================================
 
-#vARIABLE LENGTH KEYWORD
-
-
-
-
-
-
-
-
-
-#=====================================================================
-
-
-
-
+#

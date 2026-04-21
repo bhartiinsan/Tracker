@@ -38,11 +38,11 @@ sample_dict[2] = 30
 print("Updated dictionary:", sample_dict)
 
 
-# 2. Add item in dictionary
-sample_dict = {0: 10, 1: 20}
-sample_dict[2] = 30
+# # 2. Add item in dictionary
+# sample_dict = {0: 10, 1: 20}
+# sample_dict[2] = 30
     
-return sample_dict
+# return sample_dict
 
 #=================================================================================
 
