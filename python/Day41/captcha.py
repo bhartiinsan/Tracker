@@ -32,10 +32,10 @@ print(final_captcha)
 
 #=================================================================
 
-captcha=random.choices(li_chs,k=6)
-print(captcha)
+# captcha=random.choices(li_chs,k=6)
+# print(captcha)
 
-final_captcha=''
-for c in captcha:
-    final_captcha+=str(c)
-print(final_captcha)
+# final_captcha=''
+# for c in captcha:
+#     final_captcha+=str(c)
+# print(final_captcha)

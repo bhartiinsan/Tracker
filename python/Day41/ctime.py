@@ -1,0 +1,1 @@
+# if else , Ternary  rrorand we have to do comprehebnsion

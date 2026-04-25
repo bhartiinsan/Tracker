@@ -7,3 +7,28 @@
 
 
 #==============================================================
+
+
+# Package
+#  ├── Module
+#  │    ├── functions
+#  │    ├── variables
+#  │    └── classes
+#  │
+#  └── Module
+#       └── ...
+
+# Library --> Collection of pre-defined code either
+#             in the form of package or module directly
+
+# Examples:
+# random, numpy, pandas, requests, etc.
+
+# Framework --> Library + predefined architecture + domain
+
+# Examples:
+# django        (MVT)   web
+# tensorflow    DNN     AI
+# pytorch
+
+# etc.

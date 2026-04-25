@@ -5,19 +5,47 @@
 #         return"odd"
     
 # r= even_odd(12)
-# print(r)
+# # print(r)
 
-#==============================================================================
+# #==============================================================================
 
-# TYPE AANOTATION ( INTRODUCED IN 3,5)
+# # TYPE AANOTATION ( INTRODUCED IN 3,5)
 
-def even_od(num: int) -> str:
-        if num %2 == 0:
-            return "even"
-        else: 
-            return "odd"
+# def even_od(num: int) -> str:
+#         if num %2 == 0:
+#             return "even"
+#         else: 
+#             return "odd"
 
     
-r= even_od(12)
-print(r)     # Output: even
+#========================================================================================
 
+#                 Input (Avg)
+#                      |
+#                 +-----------+
+#                 | Function  |
+#                 +-----------+
+#                      |
+#                 value (output)
+#                      |
+#                    return
+
+
+# -----------------------------------------------
+
+
+#                  Fruits
+#                     |
+#                 +-----------+
+#                 | Machine   |
+#                 +-----------+
+#                     |
+#                    Juice
+
+
+# -----------------------------------------------
+
+
+# int   => cooler (define)
+# str   => cold kaise wala
+# priority => str
