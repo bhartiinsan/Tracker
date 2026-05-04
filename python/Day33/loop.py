@@ -12,7 +12,7 @@
 #USER-DEFINE FUNCTION 
 #KEYWORD- def 
 
-def colors():
+def color():
     print("black")
     print("white")
 
@@ -22,7 +22,7 @@ def fruits():
 
 fruits()
     
-colors()
+color()
 
 def colors():
     print("red")
