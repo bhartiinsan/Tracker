@@ -1,0 +1,20 @@
+# EXCEPTION
+# IT IS AN ERROR OF ABNORMAL TERMINATION OF THE PROGRAM
+# SYNTAX ERROR
+# print("hello world"
+
+# NAME ERROR
+# print(x)
+
+#value error
+# num=int(input('enter number: '))
+
+
+# TYPE ERROR
+# print(5+"hello")
+
+
+# eXCEPTION HANDLING
+# DEALING EXCEPTION TO AVOID ABNORMAL TERMINATION OF THE PROGRAM
+
+
