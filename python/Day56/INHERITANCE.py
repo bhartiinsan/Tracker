@@ -28,4 +28,4 @@ class smartphone(mobile):
 obj=mobile()
 obj.voice_call()
 obj.text_msg()
-obj.vdc_cal
+obj.vdc_call()
